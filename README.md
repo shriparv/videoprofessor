@@ -30,7 +30,7 @@ The project runs completely locally, meaning you need a machine with a dedicated
 2. Run the extraction script:
 
 ```powershell
-python videoprofessor/extractMeta.py
+python extractMeta.py
 ```
 
 3. The script will automatically loop through every video, download the necessary AI models to your local cache (if running for the first time), and print `✔ Done: [filename]` as it finishes each video.
